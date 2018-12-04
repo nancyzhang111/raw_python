@@ -154,7 +154,7 @@ class TCPPacket:
         self.tcp_ack_seq = self.ack
 
         # ---- [ Header Length ]
-        self.tcp_hdr_len = 80
+        self.tcp_hdr_len = 20
 
         # ---- [ TCP Flags ]
         f = self.flags
@@ -184,3 +184,4 @@ class TCPPacket:
         self.tcp_urg_ptr = 0
 
         return
+
